@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-import click
-import logging
-from pathlib import Path
-from dotenv import find_dotenv, load_dotenv
-import torch
-from torch import nn
-from torch import optim
-from model import CNN
-from helper import save_loss_plot
-import os
 import datetime
+import logging
+import os
+from pathlib import Path
+
+import click
+import torch
+from dotenv import find_dotenv, load_dotenv
+from helper import save_loss_plot
+from model import CNN
+from torch import nn, optim
 
 
 @click.command()

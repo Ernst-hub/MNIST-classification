@@ -1,9 +1,10 @@
-import click
-import torch
-from model import CNN
 import logging
 from pathlib import Path
+
+import click
+import torch
 from dotenv import find_dotenv, load_dotenv
+from model import CNN
 
 
 @click.command()

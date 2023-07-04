@@ -1,13 +1,15 @@
-import click
-import torch
-import torch.nn as nn
-from sklearn.manifold import TSNE
 import logging
 from pathlib import Path
-from dotenv import find_dotenv, load_dotenv
+
+import click
 import matplotlib.pyplot as plt
 import numpy as np
+import torch
+import torch.nn as nn
+from dotenv import find_dotenv, load_dotenv
 from matplotlib import cm
+from sklearn.manifold import TSNE
+
 from src.models.model import CNN
 
 
