@@ -5,13 +5,15 @@ Simple MNIST classifier project using PyTorch to implement a convolutional neura
 
 commands:
 
-`$\rootfolder make data` | to generate processed data in data/processed
+`$\root make data` | to generate processed data in data/processed
 
 `$\root make train` | trains the model and reports plots in reports/figures
 
 `$\root make evaluate` | evaluates the model
 
 `$\root make visualize` | visualise features 
+
+see the makefile for details
 
 Project structure
 ------------
